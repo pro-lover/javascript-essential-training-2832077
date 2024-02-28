@@ -35,6 +35,9 @@ class Backpack {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   }
+  newVolume(isVolume) {
+    this.volume = isVolume;
+  }
 }
 
 export default Backpack;

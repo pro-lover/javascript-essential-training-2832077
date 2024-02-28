@@ -21,4 +21,9 @@ const backpack = {
   },
 };
 
-console.log("The backpack object:", backpack);
+console.log("The backpack object:", backpack.name);
+
+var bracketNotation = "name"
+
+console.log("The backpack object:", backpack[bracketNotation]);
+console.log("The backpack object:", backpack["name"]);
